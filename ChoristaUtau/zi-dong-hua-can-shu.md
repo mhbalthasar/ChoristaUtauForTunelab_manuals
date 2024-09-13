@@ -8,7 +8,7 @@
 
 **1.1 非线性自动化参数的取值**
 
-<figure><img src="assets/Img (13).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/图片 (13).png" alt=""><figcaption></figcaption></figure>
 
 非线性自动化参数的取值主要取自音素头部分割线（途中灰色线为分割线）位置的值。值的作用域是整个音素。如红色线位置的值作用域就是音素-e
 
@@ -16,7 +16,7 @@
 
 **1.2 非线性自动化参数中的特例1：RLE参数**
 
-<figure><img src="assets/Img (15).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/图片 (15).png" alt=""><figcaption></figcaption></figure>
 
 RLE参数用于设置音素渐出时的起始音量，作用位置是音素实际发音的尾部，因此参数设置值的读取点位被调整到了尾部的分割线（如图所示）
 
@@ -42,7 +42,7 @@ UTAU引擎的绝大多数参数都是非线性的，这对于较长的发音控�
 
 被融合的第一条声线是合成的当前生线，默认融合占比是100%，随着XSP逼近1.0而线性减低至0%
 
-<figure><img src="assets/Img (16).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/图片 (16).png" alt=""><figcaption></figcaption></figure>
 
 被融合的第二条声线是基于第一条声线变化而来，默认可以设置新采样（XTrack:PrefixPair)和性别差值(XTrack:gender Corrected)。其他Flags值是个性化引擎提供的，其中Moresampler提供了Opening，Tense和Breathness参数。
 
@@ -60,9 +60,9 @@ UTAU引擎的绝大多数参数都是非线性的，这对于较长的发音控�
 
 ## 3.Moresampler个性化引擎参数
 
-<figure><img src="assets/Img (17).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/图片 (17).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="assets/Img (18).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/图片 (18).png" alt=""><figcaption></figcaption></figure>
 
 ### 3.1 调整共振(Mr/Flags:MReson)
 

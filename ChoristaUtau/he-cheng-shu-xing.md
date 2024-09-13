@@ -4,7 +4,7 @@
 
 合成属性窗口位于编辑器整体窗口的右侧。
 
-<figure><img src="assets/image (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
 
 窗口不具备滚动条，但是可以通过在窗口区域混动鼠标中键滚轮来进行上下翻页（请自备带滚轮的鼠标）
 
@@ -12,7 +12,7 @@
 
 ### 2.1 增益（Gain）
 
-<figure><img src="assets/image-1 (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image-1 (1).png" alt=""><figcaption></figcaption></figure>
 
 增益的值域时-12db到12db，用于整体调整当前片段的音量。主要作用是用来平衡不同声库之间的基础音量差距。
 
@@ -20,7 +20,7 @@
 
 最小切片分段用于控制渲染队列。当两个音符之间的间距小于等于这个值时，两个音符将被视作连续的发音而划归到同一个渲染任务中渲染。
 
-<figure><img src="assets/image (4).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
 
 渲染任务分片越多，渲染速度越快。因此适当的设置此值有助于更好的使用体验。默认值是0，即音符只有前后连续时才算作同一个渲染任务。
 
@@ -28,7 +28,7 @@
 
 在同一个渲染任务中，两个连续的音符之间会自动产生过度滑音。这个过度滑音的持续时间由本参数控制。参数单位是秒，默认值是0.12（即120毫秒）。
 
-<figure><img src="assets/image-1 (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image-1 (2).png" alt=""><figcaption></figcaption></figure>
 
 本属性值的中位点是前一个音符的结束点， 即滑音始终占用前一个音符末尾的 (PitchTransitionTiming/2)秒的长度用来滑音。
 
@@ -98,7 +98,7 @@ DecayFactor:空间反射倍率
 
 ### 5.1 抢先发音（EarlyStart）
 
-<figure><img src="assets/Img (19).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/图片 (19).png" alt=""><figcaption></figcaption></figure>
 
 用于在不改变实际音符位置的情况下调整相邻音符的发音起点，当earlyStart>0时，音符起始点向前移动（前序音符相应缩短），当earlyStart<0时，音符起始点向后移动，前序音符相应拉长。
 
@@ -126,4 +126,4 @@ DecayFactor:空间反射倍率
 
 见自动化参数一节
 
-<figure><img src="../assets/image%20(27).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image%20(27).png" alt=""><figcaption></figcaption></figure>

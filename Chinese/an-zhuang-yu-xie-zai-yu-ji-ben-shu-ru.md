@@ -6,11 +6,11 @@
 
 第一步. 到TuneLab Forum或其他适当的位置下载ChoristaUtau For TuneLab插件安装文件。如：
 
-<figure><img src=".gitbook/assets/图片.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="assets/Img.png" alt=""><figcaption></figcaption></figure>
 
 ​​第二步.拖动TLX插件安装包（如上图中的ChoristaUtauforTuneLab-win-x64-v1.5.1.tlx)到TuneLab窗口的任意部分。此时鼠标变成拖动状态。鼠标拖放状态
 
-<figure><img src=".gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="assets/image.png" alt=""><figcaption></figcaption></figure>
 
 第三步.在TuneLab编辑器窗口松开鼠标，插件会自动安装。当弹出提示：”ChoristaUtau插件已安装成功!“ 时，插件已安装完成。​
 
@@ -20,17 +20,17 @@
 
 首先打开“文件管理器”。
 
-<figure><img src=".gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
 文件管理器然后在地址栏输入插件存储目录路径"%appdata%\TuneLab\Extensions"(不包含引号)输入路径
 
-<figure><img src=".gitbook/assets/image-1.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="assets/image-1.png" alt=""><figcaption></figcaption></figure>
 
 接着按下回车键，即可进入"插件存储目录"插件存储目录内容
 
 最后选择你要删除的插件的文件夹（如ChoristaUtau）,按下回车键删除目录。
 
-<figure><img src=".gitbook/assets/图片 (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="assets/Img (1).png" alt=""><figcaption></figcaption></figure>
 
 即可删除指定插件。请注意：删除插件时必须关闭Tunelab编辑器，不然你会删除失败。​
 
@@ -40,7 +40,7 @@ TuneLab的插件更新是自覆盖安装模式。因此当你需要升级/降级
 
 &#x20;需要注意的是，在执行过程中，由于已经安装了旧版本的插件。因此会有一个弹窗询问“插件已经安装过了，是否需要重启编辑器并重新安装插件”，此时选择“是”，编辑器会自动重启并更新插件。
 
-<figure><img src=".gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="assets/image (2).png" alt=""><figcaption></figcaption></figure>
 
 ## **2.Utau声库**
 
@@ -64,17 +64,17 @@ Utau声库不需要额外的安装即可使用，具体的配置安装步骤如�
 
 然后在解压后的目录中找到SettingBuilder\_win64.exe并执行
 
-<figure><img src=".gitbook/assets/图片 (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="assets/Img (2).png" alt=""><figcaption></figcaption></figure>
 
 接着点击界面中“Add Folder”按钮添加检索路径（如D:\UtauDB)
 
-<figure><img src=".gitbook/assets/图片 (5).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="assets/Img (5).png" alt=""><figcaption></figcaption></figure>
 
 **2.1.2 安装Utau声库**
 
 复制Utau声库文件夹或解压声库压缩包到刚刚配置的索引目录即可。
 
-<figure><img src=".gitbook/assets/图片 (6).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="assets/Img (6).png" alt=""><figcaption></figcaption></figure>
 
 ### **2.2 卸载声库**
 
@@ -98,7 +98,7 @@ Utau声库不需要额外的安装即可使用，具体的配置安装步骤如�
 
 安装完声库后，直接打开TuneLab编辑器，然后在"片段"上点击鼠标右键，选择"设置声源(Set Voice)"菜单，即可选择引擎(以ChoristaUtau\_开头，如ChoristaUtau\_Mores)并设置所使用的声库到选定的片段。
 
-<figure><img src=".gitbook/assets/图片 (7).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="assets/Img (7).png" alt=""><figcaption></figcaption></figure>
 
 ### 2.5 音素器选择 <a href="#id-2.4-sheng-ku-xuan-ze" id="id-2.4-sheng-ku-xuan-ze"></a>
 
@@ -108,7 +108,7 @@ Utau的声库往往具备不同的拆音方案，为了适配这个，本插件�
 
 目前内置音素器有自建音素器和OpenUtau兼容音素器。
 
-<figure><img src=".gitbook/assets/图片 (9).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="assets/Img (9).png" alt=""><figcaption></figcaption></figure>
 
 
 

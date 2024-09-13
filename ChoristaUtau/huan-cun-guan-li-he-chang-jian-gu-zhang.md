@@ -8,7 +8,7 @@ Utau的高速渲染是依赖缓存的，但是有个别时候缓存的认证错�
 
 合成缓存的存储目录是%Temp%\ChoristaUtau，但是建议使用图形界面工具清理：
 
-<figure><img src="assets/spaces_GxWeqO2OKSEOZdPDlWjY_uploads_git-blob-d8fc00c3ad8a9fe9b2212af2ae5bf3a388d802a8_图片.png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/spaces_GxWeqO2OKSEOZdPDlWjY_uploads_git-blob-d8fc00c3ad8a9fe9b2212af2ae5bf3a388d802a8_图片.png" alt=""><figcaption></figcaption></figure>
 
 点击RenderCacheManager处的CleanAll即可。
 
@@ -16,7 +16,7 @@ Utau的高速渲染是依赖缓存的，但是有个别时候缓存的认证错�
 
 ## 2.采样渲染故障
 
-<figure><img src="assets/ccbe54a3ffa8b836748df1ad292f8e8e.png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/ccbe54a3ffa8b836748df1ad292f8e8e.png" alt=""><figcaption></figcaption></figure>
 
 故障表现如图所示，这个错误出现意味着当前区块的音频渲染失败。
 
@@ -48,7 +48,7 @@ Utau的高速渲染是依赖缓存的，但是有个别时候缓存的认证错�
 
 另外可以尝试使用设置工具指定oto文件编码。通常编码应该为ShiftJIS（Utau默认）
 
-<figure><img src="assets/Img (20).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/图片 (20).png" alt=""><figcaption></figcaption></figure>
 
 
 #### 2.4 音素器问题

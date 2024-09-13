@@ -12,11 +12,11 @@
 
 在录入歌词时，可以通过添加保留记号“.”来实现直接录入发音符号。Utau的直接发音符号是针对当前音符整音的，因此主要用于作为整音拆音
 
-<figure><img src="assets/Img (10).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/图片 (10).png" alt=""><figcaption></figcaption></figure>
 
 考虑到连续拆音的情况，当使用单个“."号作为前导时，系统会尽可能猜测当前发音的元音和辅音用于支持拆音：
 
-<figure><img src="assets/Img (11).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/图片 (11).png" alt=""><figcaption></figcaption></figure>
 
 当使用连续两个“.”作为前导时，则完全将发音视作整体，不进行额外考虑
 
@@ -24,5 +24,5 @@
 
 对于音节化的歌词和OU兼容的CVVC插件，系统额外支持了Openutau类似的歌词Hit功能，通过中括号包裹的发音符号会作为匹配音节进行音素录入。
 
-<figure><img src="assets/Img (12).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/图片 (12).png" alt=""><figcaption></figcaption></figure>
 
