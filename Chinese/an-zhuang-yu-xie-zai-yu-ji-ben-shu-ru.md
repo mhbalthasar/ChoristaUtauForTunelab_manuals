@@ -8,6 +8,8 @@
 
 <figure><img src="assets/Img.png" alt=""><figcaption></figcaption></figure>
 
+GitHub Stable Release: <a href="https://github.com/mhbalthasar/ChoristaUtauForTunelab_manuals/releases" target="_blank"> ReleasePage </a>
+
 ​​第二步.拖动TLX插件安装包（如上图中的ChoristaUtauforTuneLab-win-x64-v1.5.1.tlx)到TuneLab窗口的任意部分。此时鼠标变成拖动状态。鼠标拖放状态
 
 <figure><img src="assets/image.png" alt=""><figcaption></figcaption></figure>
